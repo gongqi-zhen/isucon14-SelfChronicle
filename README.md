@@ -10,4 +10,7 @@
   - 原因はisuride-matcherのprocessが1つである必要があるため
   - isuride-matcherが(/api/internal/matching:internalGetMatching)を叩いている事が原因、daemonを止める必要があった
 
-## 備考
+## 反省会
+- DBのCPU負荷が100%張り付かなくなるようになるポイントは何処か
+  - INDEX付与、DB分割だけではCPU100%張り付き状況変わらず
+- [公式反省会](https://lycorptech-jp.connpass.com/event/340046/)
