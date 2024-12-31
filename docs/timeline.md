@@ -17,5 +17,6 @@
 - [事前解答](https://github.com/fujiwara/isucon14-exam)
 - [ISUCON14 問題の解説と講評](https://isucon.net/archives/58869617.html)
 - [優勝者](https://github.com/takonomura/isucon14)
+- [isucon14 の1位の人のやったことを全てみて学ぶ](https://blog.framinal.life/entry/2024/12/08/235842)
 
 ## 理解した事
