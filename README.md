@@ -11,6 +11,20 @@
   - isuride-matcherが(/api/internal/matching:internalGetMatching)を叩いている事が原因、daemonを止める必要があった
 
 ## 反省会
-- DBのCPU負荷が100%張り付かなくなるようになるポイントは何処か
-  - INDEX付与、DB分割だけではCPU100%張り付き状況変わらず
 - [公式反省会](https://lycorptech-jp.connpass.com/event/340046/)
+```
+・適宜index付与
+・internalGetMatchingのmatching呼び出し一度で全てマッチさせる
+・chairの全権取得(*)を止めて必要なカラムを取得し、is_activeで絞り込む、不要なselectを止める
+・chairに位置情報(latitude, longitude)を持たせる,初期化処理(postInitialize)でDBも初期化しているので、chair_locationsから情報を取得してchairに入れる
+・matching構造体を定義してそこに距離を持たせる、chairとrideの距離を先に計算して距離が小さい順に並べておく、距離が遠すぎる場合はマッチングせずcontinueする。
+・chairにtotal_distance, moved_atを持たせる
+・appGetNearbyChairsを改善する
+・multihostにする (DBサーバの設定を他のサーバから接続できるようにする。そしてisuride-matcherを止める。)
+・DBの負荷が高いこと、matchingの確認頻度に併せて、notificationのRetryAfterMs設定を30 -> 400程度の調整する
+
+このあたりの改良を加えることで、75000 程度のスコアが出ることを確認した
+
+
+```
+
