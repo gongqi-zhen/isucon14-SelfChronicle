@@ -1,6 +1,8 @@
 
 # isucon14-SelfChronicle
 
+ゆるっと
+
 ![スクリーンショット 2025-01-13 2 48 48](https://github.com/user-attachments/assets/f0a5eaac-9ce4-4453-bfba-82db491b6c2f)
 
 ## 2024
