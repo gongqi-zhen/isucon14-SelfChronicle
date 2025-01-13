@@ -1,6 +1,8 @@
 
 # isucon14-SelfChronicle
 
+![スクリーンショット 2025-01-13 2 48 48](https://github.com/user-attachments/assets/f0a5eaac-9ce4-4453-bfba-82db491b6c2f)
+
 ## 2024
 - **2024-12-08**: isucon14
 - **2025-01-17**: 感想戦モード2025年1月17日16時まで
@@ -28,8 +30,6 @@
 ```
 
 ## [感想戦モード](https://discord.com/channels/1281221321166163990/1281221321174421572/1316656816603533362)
-
-![スクリーンショット 2025-01-13 2 48 48](https://github.com/user-attachments/assets/f0a5eaac-9ce4-4453-bfba-82db491b6c2f)
 
 ベンチマーク実行
 
