@@ -22,6 +22,7 @@
 - [優勝者](https://github.com/takonomura/isucon14)
 - [takonomura isucon14 の1位の人](https://blog.framinal.life/entry/2024/12/08/235842)
 - [最上川](https://zenn.dev/kawaemon/articles/f40529e0c447f5)
+- [最上川、最適化](https://zenn.dev/kawaemon/articles/529fd6a12ac43b)
 
 ## メモ
 - 2025/1頃 何をするのか・どんな仕組みなのか理解するために、AIに情報を与えるツールが便利
